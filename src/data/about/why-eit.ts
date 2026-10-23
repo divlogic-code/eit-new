@@ -1,161 +1,153 @@
-export interface WhyEitItem {
-  id: number;
-  title: string;
-  description: string;
-}
-
 export const whyEitContent = {
-  eyebrow: "The Echelon Advantage",
-
-  title: ["Why", "Echelon?"],
-
+  eyebrow: "Why EIT",
+  title: "Why Choose Echelon Institute of Technology",
   description:
-    "A learning environment built around academic excellence, industry exposure, holistic development, modern infrastructure, innovation, and responsible leadership.",
+    "Discover the opportunities, infrastructure, industry exposure, and holistic learning environment that make Echelon Institute of Technology one of the leading engineering and management institutions.",
 
   reasons: [
     {
       id: 1,
-      title: "17.5 Acres of State-of-the-Art Infrastructure",
+      title: "20+ Years of Academic Excellence",
       description:
-        "Spread over 17.5 acres, the campus offers state-of-the-art infrastructure with centralized air conditioning and modern academic facilities.",
+        "Over two decades of excellence in delivering quality education with a strong academic foundation and student-focused learning environment.",
     },
     {
       id: 2,
-      title: "Quality Faculty from Academia and Industry",
+      title: "AICTE Approved",
       description:
-        "Highly qualified faculty drawn from both academia and industry, with more than 50 faculty members holding Ph.D. degrees.",
+        "Programs approved by AICTE ensuring national quality standards in technical and management education.",
     },
     {
       id: 3,
-      title: "Dedicated Mentoring System",
+      title: "NBA Accredited",
       description:
-        "A structured mentoring system focused on supporting each student through personalized interaction and individual attention.",
+        "NBA accreditation reflects the institute's commitment to high academic standards and continuous improvement.",
     },
     {
       id: 4,
-      title: "Expansive Sports Arena",
+      title: "Affiliated to GGSIPU",
       description:
-        "An extensive range of sports facilities covering Cricket, Basketball, Kabaddi, Football, Throw Ball, and more.",
+        "Affiliated with Guru Gobind Singh Indraprastha University, Delhi, one of India's leading universities.",
     },
     {
       id: 5,
-      title: "Multi-Disciplinary Sports Complex",
+      title: "90+ High-Tech Laboratories",
       description:
-        "Planned expansion includes a tennis court with floodlights and a swimming pool in fulfillment of the vision of a multi-disciplinary sports complex on campus.",
+        "Modern laboratories and workshops equipped with advanced tools for practical learning and innovation.",
     },
     {
       id: 6,
-      title: "Sustainable Green Campus & Waste Management",
+      title: "27+ Centres of Excellence",
       description:
-        "Comprehensive waste management and environmental improvement measures contribute to a sustainable and eco-friendly campus.",
+        "Industry-integrated Centres of Excellence providing hands-on learning in emerging technologies.",
     },
     {
       id: 7,
-      title: "Holistic Club Culture & Semester-Long Programs",
+      title: "Industry Integrated Learning",
       description:
-        "Clubs cover multiple facets of human development to create integrated and holistic individuals, with full-scale semester-long courses designed to train students in their chosen fields of interest and aspiration.",
+        "Curriculum enriched with live projects, practical exposure, and industry collaborations.",
     },
     {
       id: 8,
-      title: "Three-Way Partnership Model",
+      title: "Industrial Visits",
       description:
-        "A strong partnership among parents, students, and the institute, with direct engagement opportunities involving the Principal, Deans, and interaction with the Board of Governors.",
+        "Regular industrial visits help students understand real-world engineering and management practices.",
     },
     {
       id: 9,
-      title: "State-of-the-Art Cafeteria",
+      title: "Experiential Learning",
       description:
-        "A modern cafeteria providing wholesome, nourishing, and Ayurvedic food designed to support vitality of the body, mind, and spirit.",
+        "Learning extends beyond classrooms through projects, workshops, internships, and practical applications.",
     },
     {
       id: 10,
-      title: "Hostel Life – A Modern Gurukul",
+      title: "Dedicated Training & Placement",
       description:
-        "A modern Gurukul environment focused on human development and the creation of evolved, empowered, and compassionate individuals through freedom, independent decision-making, responsibility, and commitment.",
+        "Comprehensive placement training, aptitude development, interview preparation, and career guidance.",
     },
     {
       id: 11,
-      title: "National & International Competition Participation",
+      title: "10,000+ Placement Offers",
       description:
-        "Students are encouraged and supported to participate in prestigious competitions such as Smart India Hackathon (SIH), Ideathon, and other national and international platforms.",
+        "An outstanding placement record supported by strong industry partnerships and alumni success.",
     },
     {
       id: 12,
-      title: "Centrally Air-Conditioned Distinguished Library",
+      title: "₹100 Crore+ Scholarships",
       description:
-        "A centrally air-conditioned library offering an extensive collection of new books and learning resources in both physical and digital formats.",
+        "Scholarships designed to encourage academic excellence and support deserving students.",
     },
     {
       id: 13,
-      title: "Intensive Training for Competitive Examinations",
+      title: "Entrepreneurship Development",
       description:
-        "Two-semester intensive training for GATE aspirants from the third year onwards, along with intensive preparation support for CAT aspirants.",
+        "Startup support, innovation programs, and entrepreneurial guidance encourage students to become job creators.",
     },
     {
       id: 14,
-      title: "Unnat Bharat Abhiyan & SAGY",
+      title: "Innovation & Research",
       description:
-        "Active implementation of Unnat Bharat Abhiyan and Saansad Adarsh Gram Yojana (SAGY) initiatives.",
+        "Students participate in research projects, innovation competitions, and technology-driven initiatives.",
     },
     {
       id: 15,
-      title: "‘The Last Centre’ – Leadership Development Space",
+      title: "Modern Green Campus",
       description:
-        "A dedicated 3000 sq. ft. space committed to nurturing conscious leaders capable of making meaningful and creative contributions to industry, society, the environment, and the nation.",
+        "A 17.5-acre campus offering a safe, vibrant, and environmentally friendly learning atmosphere.",
     },
     {
       id: 16,
-      title: "Industry-Integrated Learning & Emerging Technologies",
+      title: "500+ Modern Hostels",
       description:
-        "Ongoing training for students and faculty by high-end industry experts in emerging and continuously evolving technologies, helping education remain relevant, meaningful, and industry-specific.",
+        "Comfortable hostel facilities designed to provide a secure and enriching residential experience.",
     },
     {
       id: 17,
-      title: "Centres of Excellence & Skill Development Partnerships",
+      title: "100+ Industry Interactions",
       description:
-        "Centres of Excellence and MoUs support skill development through collaborations including Honeywell–ICT Academy, GTT BARCLAYS, CISCO–NIIT Academy Foundation Partner, CETPA, SOFT PRO, NASSCOM, Froyo Technologies Pvt. Ltd., Skill Clout, Institute of Industrial Development (IID), KVCH, Code Squads, and others. The institute also provides facilities for multi-disciplinary research, incubation, and international internship opportunities.",
+        "Regular guest lectures, workshops, seminars, and expert sessions conducted by industry professionals.",
     },
     {
       id: 18,
-      title: "Inbuilt Social & Emotional Learning Mechanism",
+      title: "20+ Student Societies",
       description:
-        "Aligned with the National Education Policy (NEP), Social and Emotional Learning is incorporated as an important component of holistic education.",
+        "Technical, cultural, literary, sports, and leadership societies promote holistic personality development.",
     },
     {
       id: 19,
-      title: "Green & Energy-Efficient Campus",
+      title: "Hackathons & Competitions",
       description:
-        "An eco-friendly campus focused on energy efficiency and preservation of natural resources to provide a healthy living and learning environment.",
+        "Students actively participate in national hackathons, ideathons, coding competitions, and innovation challenges.",
     },
     {
       id: 20,
-      title: "Mandatory Internship Policy",
+      title: "Digital Academic Environment",
       description:
-        "A structured mandatory internship policy is implemented to provide students with practical exposure and professional experience.",
+        "ERP-enabled academic monitoring, digital resources, and smart learning infrastructure.",
     },
     {
       id: 21,
-      title: "Implementation of Government of India Schemes",
+      title: "1:1 Mentorship",
       description:
-        "The institute actively implements applicable schemes and initiatives announced by the Government of India.",
+        "Dedicated mentoring helps students with academics, career planning, and personal development.",
     },
     {
       id: 22,
-      title: "Institute Innovation Council (IIC)",
+      title: "Sports & Cultural Excellence",
       description:
-        "An operational Institute Innovation Council promotes innovation, entrepreneurship, and an innovation-driven culture among students.",
+        "Excellent sports facilities and cultural activities ensure balanced physical, social, and creative growth.",
     },
     {
       id: 23,
-      title: "Fully Digitalized Campus (ERP Enabled)",
+      title: "Leadership & Holistic Development",
       description:
-        "ERP software implementation supports a fully digitalized and seamlessly connected campus.",
+        "Leadership programs and community engagement develop confident, ethical, and socially responsible professionals.",
     },
     {
       id: 24,
-      title: "Institution–Industry Cell & Innovation Cell",
+      title: "Future-Ready Education",
       description:
-        "Dedicated Institution–Industry and Innovation Cells foster industry collaboration, innovation, entrepreneurship, and research culture.",
+        "An ecosystem focused on innovation, technology, entrepreneurship, and lifelong learning prepares students for global careers.",
     },
-  ] satisfies WhyEitItem[],
+  ],
 };
