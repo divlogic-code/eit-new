@@ -69,21 +69,13 @@ export function ClubsSection({
 
   if (clubs.length === 0) return null;
 
-  const midpoint = Math.ceil(clubs.length / 2);
-
-  const rowA = clubs;
-
-  const rowB = [
-    ...clubs.slice(midpoint),
-    ...clubs.slice(0, midpoint),
-  ].reverse();
-
-  const fill = (list: ClubView[]) =>
-    list.length >= 6
-      ? list
+  // Ensure enough cards for smooth continuous scrolling.
+  const marqueeClubs =
+    clubs.length >= 6
+      ? clubs
       : Array.from(
           { length: 6 },
-          (_, index) => list[index % list.length]
+          (_, index) => clubs[index % clubs.length]
         );
 
   return (
@@ -145,31 +137,14 @@ export function ClubsSection({
         </div>
       </Container>
 
-      <div className="eit-clubs-marquee mt-12 space-y-6">
+      {/* SINGLE CONTINUOUS MOVING ROW */}
+      <div className="eit-clubs-marquee mt-12">
         <div data-anim="marquee-row">
           <Marquee
             seconds={marqueeSeconds}
             paused={paused}
           >
-            {fill(rowA).map((club, index) => (
-              <ClubCard
-                key={`${club.id}-${index}`}
-                club={club}
-              />
-            ))}
-          </Marquee>
-        </div>
-
-        <div
-          data-anim="marquee-row"
-          data-from="right"
-        >
-          <Marquee
-            seconds={marqueeSeconds * 1.15}
-            paused={paused}
-            reverse
-          >
-            {fill(rowB).map((club, index) => (
+            {marqueeClubs.map((club, index) => (
               <ClubCard
                 key={`${club.id}-${index}`}
                 club={club}
