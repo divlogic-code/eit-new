@@ -13,17 +13,7 @@ export interface SuccessStory {
 }
 
 export const successStories: SuccessStory[] = [
-  {
-    id: "Shagun-Kumari",
-    studentName: "Shagun Kumari",
-    company: "Snowman Logistics",
-    role: "Data Analyst",
-    package: "",
-    photo: {
-      src: "/images/placements/shagun-kumari-story.webp",
-      alt: "Illustrative portrait, not an actual photograph",
-    },
-  },
+  
   {
     id: "Nikita",
     studentName: "Nikita",
@@ -46,17 +36,7 @@ export const successStories: SuccessStory[] = [
       alt: "Illustrative portrait, not an actual photograph",
     },
   },
-  {
-    id: "Mohak",
-    studentName: "Mohak",
-    company: "SRF Ltd",
-    role: "IT Application Intern ",
-    package: "",
-    photo: {
-      src: "/images/placements/mohak-story.webp",
-      alt: "Illustrative portrait, not an actual photograph",
-    },
-  },
+  
   {
     id: "Naina-Sharma",
     studentName: "Naina Sharma",
@@ -87,6 +67,28 @@ export const successStories: SuccessStory[] = [
     package: "",
     photo: {
       src: "/images/placements/ayush-jha-story.webp",
+      alt: "Illustrative portrait, not an actual photograph",
+    },
+  },
+  {
+    id: "Shagun-Kumari",
+    studentName: "Shagun Kumari",
+    company: "Snowman Logistics",
+    role: "Data Analyst",
+    package: "",
+    photo: {
+      src: "/images/placements/shagun-kumari-story.webp",
+      alt: "Illustrative portrait, not an actual photograph",
+    },
+  },
+  {
+    id: "Mohak",
+    studentName: "Mohak",
+    company: "SRF Ltd",
+    role: "IT Application Intern ",
+    package: "",
+    photo: {
+      src: "/images/placements/mohak-story.webp",
       alt: "Illustrative portrait, not an actual photograph",
     },
   },

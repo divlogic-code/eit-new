@@ -2271,3 +2271,21 @@
 .eit-podcasts-marquee .eit-podcast-card {
   margin-right: 30px;
 }
+/* Celebrity Visits: single-row marquee */
+
+.eit-celebrities-marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.eit-celebrities-marquee .eit-celebrity-card {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  height: 100%;
+  margin-right: 24px;
+}
+
+.eit-celebrities-marquee .eit-celebrity-card-image {
+  width: 100%;
+}
