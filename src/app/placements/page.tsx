@@ -233,7 +233,7 @@ export default function Page() {
           eyebrow="How it works"
           title={["Process and", "policy"]}
         >
-          <div className="grid gap-10 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-12">
             {process.length > 0 && (
               <div data-anim="panel-left">
                 <p className="mb-5 text-sm font-semibold text-muted-foreground">

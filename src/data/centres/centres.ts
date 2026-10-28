@@ -9,7 +9,7 @@ export const centres: Centre[] = [
     "name": "Amazon Centre of Excellence",
     "image": { "src": "/images/centres/amazon-centre.svg", "alt": "Illustration representing AWS Cloud at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, the Amazon Centre of Excellence is dedicated to preparing students for careers in cloud computing by providing industry-relevant education through Amazon Web Services (AWS). The centre is designed to introduce learners to the principles of cloud technology and help them understand how organiza",
-    "description": "At Echelon Institute of Technology, the Amazon Centre of Excellence is dedicated to preparing students for careers in cloud computing by providing industry-relevant education through Amazon Web Services (AWS). The centre is designed to introduce learners to the principles of cloud technology and help them understand how organizations build reliable, secure, and scalable digital solutions using AWS. Through structured training, practical demonstrations, and certification-focused learning, students gain valuable insights into the world's leading cloud platform while developing skills that are highly sought after across industries.",
+    "description": "At Echelon Institute of Technology, the Amazon Centre of Excellence is dedicated to preparing students for careers in cloud computing by providing industry-relevant education through Amazon Web Services (AWS). ",
     "href": "/centres/amazon",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -101,7 +101,7 @@ export const centres: Centre[] = [
     "name": "Apple Centre of Excellence",
     "image": { "src": "/images/centres/apple-centre.svg", "alt": "Illustration representing Apple Technology at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, we are committed to providing students with an industry-oriented learning environment that prepares them for the technologies of tomorrow. Our Apple Centre of Excellence (Apple Lab) is a state-of-the-art facility established to bridge the gap between classroom learning and real-world applicati",
-    "description": "At Echelon Institute of Technology, we are committed to providing students with an industry-oriented learning environment that prepares them for the technologies of tomorrow. Our Apple Centre of Excellence (Apple Lab) is a state-of-the-art facility established to bridge the gap between classroom learning and real-world application development. Designed in collaboration with Apple's learning ecosystem, the lab provides students with hands-on experience using Apple iMac systems, Xcode, Swift, and SwiftUI—the same technologies used by professional iOS developers worldwide.",
+    "description": "At Echelon Institute of Technology, we are committed to providing students with an industry-oriented learning environment that prepares them for the technologies of tomorrow. ",
     "href": "/centres/apple",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -279,7 +279,7 @@ export const centres: Centre[] = [
     "name": "Google Centre of Excellence",
     "image": { "src": "/images/centres/google-centre.svg", "alt": "Illustration representing Google Cloud & AI at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, we are committed to preparing students with industry-relevant skills that meet the demands of today's digital world. Our Google Centre of Excellence (Google Cloud Lab) is a state-of-the-art learning facility designed to bridge the gap between academic knowledge and real-world cloud computing, ",
-    "description": "At Echelon Institute of Technology, we are committed to preparing students with industry-relevant skills that meet the demands of today's digital world. Our Google Centre of Excellence (Google Cloud Lab) is a state-of-the-art learning facility designed to bridge the gap between academic knowledge and real-world cloud computing, artificial intelligence, cybersecurity, and software engineering. Built around Google's official learning ecosystem, the lab provides students with hands-on experience using Google Cloud Platform (GCP), Google Cloud Skills Boost, Vertex AI, BigQuery, Kubernetes, and modern cloud technologies used by leading technology companies across the globe.",
+    "description": "At Echelon Institute of Technology, we are committed to preparing students with industry-relevant skills that meet the demands of today's digital world. ",
     "href": "/centres/google",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -359,7 +359,7 @@ export const centres: Centre[] = [
     "name": "IBM Centre of Excellence",
     "image": { "src": "/images/centres/ibm-centre.svg", "alt": "Illustration representing IBM SkillsBuild at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, we are dedicated to nurturing future-ready professionals by combining academic excellence with globally recognized industry training. The IBM Centre of Excellence is designed to provide students with practical exposure to emerging technologies, workplace competencies, and digital career skills",
-    "description": "At Echelon Institute of Technology, we are dedicated to nurturing future-ready professionals by combining academic excellence with globally recognized industry training. The IBM Centre of Excellence is designed to provide students with practical exposure to emerging technologies, workplace competencies, and digital career skills through the IBM SkillsBuild learning platform. The centre creates an engaging environment where students strengthen their technical knowledge while developing critical thinking, communication, and professional skills required in today's rapidly evolving technology landscape.",
+    "description": "At Echelon Institute of Technology, we are dedicated to nurturing future-ready professionals by combining academic excellence with globally recognized industry training. ",
     "href": "/centres/ibm",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -539,7 +539,7 @@ export const centres: Centre[] = [
     "name": "Microsoft Centre of Excellence",
     "image": { "src": "/images/centres/microsoft-centre.svg", "alt": "Illustration representing Microsoft Azure at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, we believe that digital transformation begins with the right skills and practical experience. The Microsoft Centre of Excellence (Microsoft Azure Lab) has been established to equip students with globally recognized cloud computing knowledge using Microsoft's enterprise technologies. Powered by",
-    "description": "At Echelon Institute of Technology, we believe that digital transformation begins with the right skills and practical experience. The Microsoft Centre of Excellence (Microsoft Azure Lab) has been established to equip students with globally recognized cloud computing knowledge using Microsoft's enterprise technologies. Powered by Microsoft's learning ecosystem, the lab enables students to understand modern cloud infrastructure, virtualization, networking, security, and Azure services through practical exercises guided by a Certified Microsoft Trainer (CMT).",
+    "description": "At Echelon Institute of Technology, we believe that digital transformation begins with the right skills and practical experience. ",
     "href": "/centres/microsoft",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -631,7 +631,7 @@ export const centres: Centre[] = [
     "name": "NASSCOM Centre of Excellence",
     "image": { "src": "/images/centres/nasscom-centre.svg", "alt": "Illustration representing FutureSkills Prime at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, we are committed to preparing students for the evolving demands of the digital economy. The NASSCOM Centre of Excellence serves as a gateway to industry-recognized digital learning, enabling students to develop future-ready skills through FutureSkills Prime, India's premier technology skilling",
-    "description": "At Echelon Institute of Technology, we are committed to preparing students for the evolving demands of the digital economy. The NASSCOM Centre of Excellence serves as a gateway to industry-recognized digital learning, enabling students to develop future-ready skills through FutureSkills Prime, India's premier technology skilling initiative. The centre bridges the gap between academic education and industry expectations by offering structured learning in emerging technologies such as Artificial Intelligence, Cloud Computing, Cybersecurity, Data Science, and Software Development. Through an industry-aligned curriculum and practical exposure, students gain the competencies required to thrive in today's technology-driven workplace.",
+    "description": "At Echelon Institute of Technology, we are committed to preparing students for the evolving demands of the digital economy. ",
     "href": "/centres/nasscom",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -731,7 +731,7 @@ export const centres: Centre[] = [
     "name": "Oracle Centre of Excellence",
     "image": { "src": "/images/centres/oracle-centre.svg", "alt": "Illustration representing Oracle Cloud at EIT", "width": 1200, "height": 900 },
     "summary": "At Echelon Institute of Technology, we are committed to preparing students for the next era of intelligent computing by integrating cutting-edge technologies into the learning experience. The Oracle Centre of Excellence (Oracle Cloud AI Lab) is designed to help students understand the transformative power of Artificial Intellige",
-    "description": "At Echelon Institute of Technology, we are committed to preparing students for the next era of intelligent computing by integrating cutting-edge technologies into the learning experience. The Oracle Centre of Excellence (Oracle Cloud AI Lab) is designed to help students understand the transformative power of Artificial Intelligence and Cloud Computing through Oracle's enterprise-grade technologies. Built around the Oracle Cloud Infrastructure (OCI) AI Foundations Associate program, the centre provides students with the knowledge and practical exposure needed to explore AI, Machine Learning, Deep Learning, and Generative AI while understanding how these technologies are implemented within Oracle Cloud Infrastructure (OCI).",
+    "description": "At Echelon Institute of Technology, we are committed to preparing students for the next era of intelligent computing by integrating cutting-edge technologies into the learning experience. ",
     "href": "/centres/oracle",
     "source": "Updated laboratory content (DOCX)",
     "sections": [
@@ -822,7 +822,7 @@ export const centres: Centre[] = [
     "name": "Salesforce Centre of Excellence",
     "image": { "src": "/images/centres/salesforce-centre.svg", "alt": "Illustration representing Salesforce CRM at EIT", "width": 1200, "height": 900 },
     "summary": "CRM & Cloud Innovation Lab. The Salesforce Centre of Excellence introduces CRM, Salesforce Trailhead, business process automation with Flow, reports and dashboards, and platform administration. Students work with guided Trailhead learning paths and practical business scenarios.",
-    "description": "The Salesforce Centre of Excellence introduces CRM, Salesforce Trailhead, business process automation with Flow, reports and dashboards, and platform administration. Students work with guided Trailhead learning paths and practical business scenarios.",
+    "description": "The Salesforce Centre of Excellence introduces CRM, Salesforce Trailhead, business process automation with Flow, reports and dashboards, and platform administration.",
     "href": "/centres/salesforce",
     "source": "Centres of Excellence Booklet 2026–27 (PDF)",
     "sections": [
@@ -884,7 +884,7 @@ export const centres: Centre[] = [
     "name": "Pearson Communication Lab",
     "image": { "src": "/images/centres/pearson-centre.svg", "alt": "Illustration representing Communication Lab at EIT", "width": 1200, "height": 900 },
     "summary": "Communication & Professional Skills. The Pearson Communication Lab develops communication, presentation, interview and professional skills. Its learning activities emphasize spoken and written English, group discussions, workplace etiquette and career readiness.",
-    "description": "The Pearson Communication Lab develops communication, presentation, interview and professional skills. Its learning activities emphasize spoken and written English, group discussions, workplace etiquette and career readiness.",
+    "description": "The Pearson Communication Lab develops communication, presentation, interview and professional skills.",
     "href": "/centres/pearson",
     "source": "Centres of Excellence Booklet 2026–27 (PDF)",
     "sections": [
