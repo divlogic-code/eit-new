@@ -93,7 +93,7 @@ export const whyEitContent = {
       id: 15,
       title: "Modern Green Campus",
       description:
-        "A 17.5-acre campus offering a safe, vibrant, and environmentally friendly learning atmosphere.",
+        "A 25-acre campus offering a safe, vibrant, and environmentally friendly learning atmosphere.",
     },
     {
       id: 16,

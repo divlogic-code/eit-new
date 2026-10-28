@@ -25,7 +25,7 @@ export const aboutContent: AboutContent = {
     "Echelon Institute of Technology, Faridabad brings engineering, computer applications and management together, so ideas, skills and talent grow side by side.",
   primaryAction: { label: "Discover EIT", href: "/about" },
   secondaryAction: { label: "Director's Message", href: "/about/director-message" },
-  card: ["Learn", "Create", "Innovate", "Grow"],
-  caption: "A campus with a purpose",
+  card: ["Learn", "Play", "Explore", "Evolve"],
+  caption: "AI enabled campus",
   panelCount: 4,
 };
