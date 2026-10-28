@@ -26,6 +26,8 @@ export interface ProgramDetail {
   departmentSlug?: string;
   duration?: string;
   summary?: string;
+  /** Editorial explanatory sections, not institute-verified curriculum statements. */
+  explanation?: { heading: string; body: string }[];
   eligibility?: string[];
   specialisations?: string[];
   careerPaths?: string[];

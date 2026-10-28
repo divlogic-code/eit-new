@@ -1,4 +1,4 @@
-import { ScrollAnimator } from "@/components/animations/ScrollAnimator";
+﻿import { ScrollAnimator } from "@/components/animations/ScrollAnimator";
 import { SmartImage } from "@/components/home/SmartImage";
 import { PageHero } from "@/components/pages/PageHero";
 import { PageSection } from "@/components/pages/PageSection";

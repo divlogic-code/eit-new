@@ -1,6 +1,31 @@
-// Content for this area lives here — never inside components.
-// Intentionally empty until real content is supplied. Do not add placeholder statistics.
+﻿import type { Mou } from "@/types";
 
-import type { Mou } from "@/types";
-
-export const placementMous: Mou[] = [];
+export const placementMous: Mou[] = [
+  { id: "codesquadz", organisation: "CodeSquadz" },
+  { id: "brain-o-vision", organisation: "Brain O Vision" },
+  { id: "edunet", organisation: "Edunet" },
+  { id: "gtt-foundation", organisation: "GTT Foundation" },
+  { id: "nasscom", organisation: "NASSCOM" },
+  { id: "defronix", organisation: "Defronix Cyber Security" },
+  { id: "spi", organisation: "SPI Softpro India" },
+  { id: "ict-academy", organisation: "ICT Academy" },
+  { id: "niit-foundation", organisation: "NIIT Foundation" },
+  { id: "edwise", organisation: "Edwise" },
+  { id: "cetpa", organisation: "CETPA Infotech" },
+  { id: "skill-clout", organisation: "Skill Clout" },
+  { id: "rubicon", organisation: "Rubicon" },
+  { id: "froyo-technologies", organisation: "Froyo Technologies" },
+  { id: "iid", organisation: "Institute for Industrial Development" },
+  { id: "jashna", organisation: "Jashna" },
+  { id: "edunet-foundation", organisation: "Edunet Foundation" },
+  { id: "oracle-academy", organisation: "Oracle Academy" },
+  { id: "edifypath", organisation: "EdifyPath" },
+  { id: "sofcon-training", organisation: "Sofcon Training" },
+  { id: "cisco", organisation: "Cisco" },
+  { id: "ibm", organisation: "IBM" },
+  { id: "techsaksham", organisation: "TechSaksham" },
+  { id: "industry-partner", organisation: "Industry Collaboration Partner" },
+  { id: "leo1", organisation: "LEO1" },
+  { id: "iphemetic", organisation: "Iphemetic Consulting Private Limited" },
+  { id: "connecting-dreams", organisation: "Connecting Dreams" },
+];

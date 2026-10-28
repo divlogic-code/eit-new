@@ -89,10 +89,22 @@ const pageRedirects: LegacyRedirect[] = [
 
 /** Department landing pages, sub-pages and journal-paper pages, derived from data. */
 const departmentRedirects: LegacyRedirect[] = departments.flatMap((d) => [
-  { source: d.legacyPath, destination: `/departments/${d.slug}` },
-  ...d.sections.map((s) => ({ source: s.legacyPath, destination: `/departments/${d.slug}/${s.slug}` })),
-  ...(d.journalPapersLegacyPath
-    ? [{ source: d.journalPapersLegacyPath, destination: `/research/journal-papers/${d.slug}` }]
+  ...(d.legacyPath.trim()
+    ? [{ source: d.legacyPath, destination: `/departments/${d.slug}` }]
+    : []),
+
+  ...d.sections
+    .filter((s) => s.legacyPath.trim().length > 0)
+    .map((s) => ({
+      source: s.legacyPath,
+      destination: `/departments/${d.slug}/${s.slug}`,
+    })),
+
+  ...(d.journalPapersLegacyPath?.trim()
+    ? [{
+        source: d.journalPapersLegacyPath,
+        destination: `/research/journal-papers/${d.slug}`,
+      }]
     : []),
 ]);
 

@@ -106,6 +106,19 @@ export default function Page() {
         )}
       </PageSection>
 
+      {detail?.explanation && detail.explanation.length > 0 && (
+        <PageSection name="program-explanation" bg="surface" eyebrow="About the degree" title={["Understanding the", "program"]}>
+          <div className="grid gap-6 md:grid-cols-2">
+            {detail.explanation.map((item) => (
+              <article key={item.heading} data-anim="card" className="rounded-2xl border border-primary/10 bg-white p-6 md:p-8">
+                <h2 className="text-xl font-semibold text-primary">{item.heading}</h2>
+                <p className="mt-4 text-base leading-7 text-muted-foreground">{item.body}</p>
+              </article>
+            ))}
+          </div>
+        </PageSection>
+      )}
+
       <PageSection name="default" bg="surface" eyebrow="More" title={["Explore", "programs"]}>
         <QuickLinksGrid links={links} columns={3} />
       </PageSection>

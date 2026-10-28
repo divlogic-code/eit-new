@@ -30,6 +30,9 @@ export interface Department {
 
 const sectionTitles = {
   "hod-message": "HoD's Message",
+  "overview": "Department Overview",
+  "vision-mission": "Vision and Mission",
+  "peo-po-pso": "PEO, PO & PSOs",
   vision: "Vision",
   peo: "Program Educational Objectives (PEO)",
   pos: "Program Outcomes (PO)",
@@ -69,6 +72,9 @@ export const departments: Department[] = [
       section("teaching-learning-process", "cse-teaching-learning-process.php"),
       section("innovation-in-teaching-learning", "cse-innovation-teaching-learning.php"),
       section("placement-data", "cse-placement-data.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
     ],
   },
   {
@@ -82,6 +88,11 @@ export const departments: Department[] = [
       section("faculty", "dca-faculty.php"),
       section("labs", "dca-department-lab.php"),
       section("newsletter", "dca-newsletter.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "hod-message", title: sectionTitles["hod-message"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
+      { slug: "dqac", title: sectionTitles["dqac"], legacyPath: "" },
     ],
   },
   {
@@ -95,6 +106,10 @@ export const departments: Department[] = [
       section("dqac", "has-dqac.php"),
       section("labs", "has-department-lab.php"),
       section("newsletter", "has-newsletter.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "hod-message", title: sectionTitles["hod-message"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
     ],
   },
   {
@@ -109,6 +124,10 @@ export const departments: Department[] = [
       section("dqac", "dms-dqac.php"),
       section("labs", "dms-department-lab.php"),
       section("newsletter", "dms-newsletter.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "hod-message", title: sectionTitles["hod-message"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
     ],
   },
   {
@@ -122,6 +141,11 @@ export const departments: Department[] = [
       section("faculty", "me-faculty.php"),
       section("labs", "me-department-lab.php"),
       section("newsletter", "me-newsletter.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "hod-message", title: sectionTitles["hod-message"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
+      { slug: "dqac", title: sectionTitles["dqac"], legacyPath: "" },
     ],
   },
   {
@@ -136,6 +160,10 @@ export const departments: Department[] = [
       section("dqac", "ece-dqac.php"),
       section("labs", "ece-department-lab.php"),
       section("newsletter", "ece-newsletter.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "hod-message", title: sectionTitles["hod-message"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
     ],
   },
   {
@@ -149,6 +177,11 @@ export const departments: Department[] = [
       section("faculty", "ce-faculty.php"),
       section("labs", "ce-department-lab.php"),
       section("newsletter", "ce-newsletter.php"),
+      { slug: "overview", title: sectionTitles["overview"], legacyPath: "" },
+      { slug: "hod-message", title: sectionTitles["hod-message"], legacyPath: "" },
+      { slug: "vision-mission", title: sectionTitles["vision-mission"], legacyPath: "" },
+      { slug: "peo-po-pso", title: sectionTitles["peo-po-pso"], legacyPath: "" },
+      { slug: "dqac", title: sectionTitles["dqac"], legacyPath: "" },
     ],
   },
 ];

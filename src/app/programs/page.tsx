@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { offeredPrograms } from "@/data/programs/offerings";
 import { ArrowRight } from "lucide-react";
 import { ScrollAnimator } from "@/components/animations/ScrollAnimator";
 import { programIcons } from "@/components/home/program-icons";
@@ -51,6 +52,44 @@ export default function Page() {
             );
           })}
         </ul>
+      </PageSection>
+
+      <PageSection name="engineering-offerings" bg="surface" eyebrow="01" title={["Undergraduate Engineering Programmes"]} description="Engineering programmes and intake figures listed in the previous EIT website.">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {offeredPrograms.engineering.map((course) => (
+            <article key={course.title} data-anim="card" className="rounded-2xl border border-primary/10 bg-white p-6">
+              <p className="text-xs font-bold uppercase tracking-widest text-eit-slate">B.Tech {course.short ? `• ${course.short}` : ""}</p>
+              <h3 className="mt-3 text-lg font-semibold text-primary">{course.title}</h3>
+              {course.description && <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{course.description}</p>}
+              <p className="mt-5 text-sm text-muted-foreground">Intake: <strong className="text-primary">{course.intake}</strong></p>
+            </article>
+          ))}
+        </div>
+      </PageSection>
+      <PageSection name="postgraduate-offerings" eyebrow="02" title={["Postgraduate Programmes"]}>
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {offeredPrograms.postgraduate.map((course) => (
+            <article key={course.title} data-anim="card" className="rounded-2xl border border-primary/10 bg-white p-6">
+              <h3 className="text-lg font-semibold text-primary">{course.title}</h3>
+              {course.description && <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{course.description}</p>}
+              <p className="mt-5 text-sm text-muted-foreground">Intake: <strong className="text-primary">{course.intake}</strong></p>
+            </article>
+          ))}
+        </div>
+      </PageSection>
+      <PageSection name="management-offerings" bg="surface" eyebrow="03" title={["Management & Computer Applications"]}>
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {offeredPrograms.management.map((course) => (
+            <article key={course.title} data-anim="card" className="rounded-2xl border border-primary/10 bg-white p-6">
+              <h3 className="text-lg font-semibold text-primary">{course.title}</h3>
+              {course.description && <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{course.description}</p>}
+              <p className="mt-5 text-sm text-muted-foreground">Intake: <strong className="text-primary">{course.intake}</strong></p>
+            </article>
+          ))}
+        </div>
+      </PageSection>
+      <PageSection name="programs-closing" bg="parchment" eyebrow={offeredPrograms.closing.eyebrow} title={[offeredPrograms.closing.heading]} description={offeredPrograms.closing.description}>
+        <Link href="/admissions" className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white">{offeredPrograms.closing.buttonText}<ArrowRight aria-hidden className="size-4" /></Link>
       </PageSection>
 
       <ScrollAnimator />
