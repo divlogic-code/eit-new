@@ -61,7 +61,11 @@ import {
   samplePlacementPolicy, samplePlacementProcess, sampleProgramDetails, sampleProjects, sampleRecruiters, sampleRecruitersSpeak,
   sampleSocial, sampleSocieties, sampleSpeakers, sampleStatistics, sampleStories, sampleStudentsSpeak, sampleTestimonials,
 } from "@/data/samples";
-import type { ProgramDetail, ProgramSlug } from "@/data/programs/programs";
+import {
+  programs,
+  type ProgramDetail,
+  type ProgramSlug,
+} from "@/data/programs/programs";
 import { socialLinks } from "@/data/site/social";
 
 /** The EIT pastels, used in turn as accents when a data entry does not name one. */
@@ -310,7 +314,15 @@ export function getHighestPerformers() {
 }
 
 export function getPlacementGallery() {
-  return pick(placementGallery, samplePlacementGallery).map((entry) => ({ ...entry, image: resolveImage(entry.image) as ResolvedImage }));
+  const normalizedSampleGallery = samplePlacementGallery.map((entry) => ({
+    ...entry,
+    caption: entry.caption ?? "",
+  }));
+
+  return pick(placementGallery, normalizedSampleGallery).map((entry) => ({
+    ...entry,
+    image: resolveImage(entry.image) as ResolvedImage,
+  }));
 }
 
 export function getProfessionalSocieties() {
@@ -375,9 +387,33 @@ export function getPlacementAchievements() {
 }
 
 /** A program's extended detail (duration, eligibility, specialisations, career paths) for its own page. `real` is that slug's data/programs/<slug>.ts value. */
-export function getProgramDetail(slug: ProgramSlug, real: ProgramDetail | null) {
-  if (real) return real;
-  return SAMPLE_CONTENT ? { ...sampleProgramDetails[slug] } : null;
+export function getProgramDetail(
+  slug: ProgramSlug,
+  real: ProgramDetail | null
+): ProgramDetail | null {
+  if (real) {
+    return real;
+  }
+
+  if (!SAMPLE_CONTENT) {
+    return null;
+  }
+
+  const baseProgram = programs.find(
+    (program) => program.slug === slug
+  );
+
+  if (!baseProgram) {
+    return null;
+  }
+
+  const sample = sampleProgramDetails[slug];
+
+  return {
+    ...baseProgram,
+    ...sample,
+    explanation: baseProgram.explanation ?? [],
+  };
 }
 
 /** Real, previously-registered documents (PDFs) in a category, e.g. the institute's approval letters. */
