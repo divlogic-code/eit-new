@@ -70,17 +70,7 @@ export const successStories: SuccessStory[] = [
       alt: "Illustrative portrait, not an actual photograph",
     },
   },
-  {
-    id: "Shagun-Kumari",
-    studentName: "Shagun Kumari",
-    company: "Snowman Logistics",
-    role: "Data Analyst",
-    package: "",
-    photo: {
-      src: "/images/placements/shagun-kumari-story.webp",
-      alt: "Illustrative portrait, not an actual photograph",
-    },
-  },
+  
   {
     id: "Mohak",
     studentName: "Mohak",
