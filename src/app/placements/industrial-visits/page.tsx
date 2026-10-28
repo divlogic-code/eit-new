@@ -1,3 +1,4 @@
+
 import { ScrollAnimator } from "@/components/animations/ScrollAnimator";
 import { PageHero } from "@/components/pages/PageHero";
 import { PageSection } from "@/components/pages/PageSection";
@@ -114,7 +115,9 @@ export default function IndustrialVisitsPage() {
 
             <h2 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
               Knowledge takes
-              <span className="block text-[#e6b99c]">a field trip.</span>
+              <span className="block text-[#e6b99c]">
+                a field trip.
+              </span>
             </h2>
           </div>
 
@@ -139,7 +142,9 @@ export default function IndustrialVisitsPage() {
               <p className="mb-2 text-xs tracking-[0.2em] text-[#e6b99c]">
                 0{index + 1}
               </p>
-              <p className="text-sm font-medium sm:text-base">{label}</p>
+              <p className="text-sm font-medium sm:text-base">
+                {label}
+              </p>
             </div>
           ))}
         </div>
@@ -147,6 +152,7 @@ export default function IndustrialVisitsPage() {
 
       {/* Featured organizations */}
       <PageSection
+        name="industrial-visit-organizations"
         eyebrow="Industry Connections"
         title={["Learning from", "the workplace."]}
         description="Explore the organizations featured in our industrial visit collection and see how industry exposure enriches the student experience."
@@ -217,7 +223,9 @@ export default function IndustrialVisitsPage() {
                   {point.number}
                 </p>
 
-                <h3 className="text-xl font-semibold">{point.title}</h3>
+                <h3 className="text-xl font-semibold">
+                  {point.title}
+                </h3>
 
                 <p className="mt-3 text-sm leading-7 text-[#52645e]">
                   {point.description}
@@ -230,6 +238,7 @@ export default function IndustrialVisitsPage() {
 
       {/* Photo gallery */}
       <PageSection
+        name="industrial-visit-gallery"
         eyebrow="Inside the Experience"
         title={["Moments from our", "industrial visits."]}
         description="Browse photographs from the industrial visit collection. Select any image to view it at full size."
@@ -260,7 +269,10 @@ export default function IndustrialVisitsPage() {
 
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-3 text-white sm:p-4">
                 <div>
-                  <p className="text-sm font-semibold">{item.company}</p>
+                  <p className="text-sm font-semibold">
+                    {item.company}
+                  </p>
+
                   <p className="mt-1 text-xs text-white/75">
                     Photograph {String(index + 1).padStart(2, "0")}
                   </p>
